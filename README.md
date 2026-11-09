@@ -18,8 +18,10 @@ To avoid any code noise, I haven't added comments inside the main script file. H
 
 ## Technical Blogs
 You can navigate directly to the detailed blog posts using these relative paths:
-** [Blog 1: What is Type Narrowing in TypeScript?](./type-narrowing.md)
-** [Blog 2: Type Alias vs Interface in TypeScript](./type-alias-vs-interface.md)
+
+** [Blog 1: Type Alias vs Interface in TypeScript](./type-alias-vs-interface.md)
+** [Blog 2: What is Type Narrowing in TypeScript?](./type-narrowing.md)
+
 
 ## How to Run & Test
 Since this project intentionally omits setup boilerplate (`tsconfig.json` or `package.json`), you can run and test the standalone `solutions.ts` script using `tsx` out of the box:
