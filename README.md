@@ -10,11 +10,15 @@ Kept the file structure completely raw and clean as per the requirements:
 * `README.md` -> This documentation file.
 
 ## Core Implementations Summary
+
 To avoid any code noise, I haven't added comments inside the main script file. Here is a brief look at the implementation logic:
+
 **Problems 1-3:** Handled default parameters, built type guards for input processing, and implemented read-only coordinate tuples.
 **Problems 4-5:** Leveraged TypeScript Generics (`<T>`) along with built-in array methods like `.flat()` and `.filter()` for strict data manipulation.
-**Problems 6-7:** Created a structured class inheritance hierarchy using `Employee` and `Manager`, properly utilizing `protected` and `private` modifiers.
+**Problem 6:** Utilized advanced Generics with structural constraints (`keyof`) to safely pluck dynamic object keys.
+**Problem 7:** Created a structured class inheritance hierarchy using `Employee` and `Manager` within a single problem blueprint, properly utilizing `protected` and `private` modifiers.
 **Problem 8:** Designed an asynchronous validator handling conditions via native `Promises` and `setTimeout` delays.
+
 
 ## Technical Blogs
 You can navigate directly to the detailed blog posts using these relative paths:
